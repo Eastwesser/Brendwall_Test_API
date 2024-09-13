@@ -16,7 +16,7 @@ This project is a simple Django application that provides an API for managing pr
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Eastwesser/Brendwall_Test_API.git
    cd brendwall_tz
    ```
    
