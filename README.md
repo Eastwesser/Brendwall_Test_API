@@ -16,68 +16,69 @@ and a frontend interface for interacting with this API.
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/Eastwesser/Brendwall_Test_API.git
-   cd brendwall_tz
-   ```
+ ```bash
+ git clone https://github.com/Eastwesser/Brendwall_Test_API.git
+ cd brendwall_tz
+ ```
    
 2. **Create a Virtual Environment**
 
-  ```bash
-  python -m venv .venv
-  ```
+```bash
+python -m venv .venv
+```
 
 3. **Activate the Virtual Environment**
 
 On Windows:
 
-  ```bash
-  .venv\Scripts\activate
-  ```
+```bash
+.venv\Scripts\activate
+```
 On macOS/Linux:
 
-  ```bash
-  source .venv/bin/activate
-  ```
+```bash
+source .venv/bin/activate
+```
 
 4. Install Dependencies
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+```bash
+pip install -r requirements.txt
+```
 
 If you don't have a requirements.txt file, you can create one with:
 
-  ```bash
-  pip freeze > requirements.txt
-  ```
+```bash
+pip freeze > requirements.txt
+```
 
 Then, install Django and Django REST Framework:
 
-  ```bash
-  pip install django djangorestframework
-  ```
+```bash
+pip install django djangorestframework
+```
 
 5. Apply Migrations
 
-  ```bash
-  python manage.py migrate
-  ```
+```bash
+python manage.py migrate
+```
 
 6. Create a Superuser (Optional)
 
 To access the Django admin interface, you may want to create a superuser:
 
-  ```bash
-  python manage.py createsuperuser
-  ```
+```bash
+python manage.py createsuperuser
+```
 
 ## Running the Server
 To start the Django development server, run:
 
-  ```bash
-  python manage.py runserver
-  ```
+```bash
+cd brendwall_tz
+python manage.py runserver
+```
 
 The server will be available at http://127.0.0.1:8000/.
 
