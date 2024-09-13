@@ -1,6 +1,7 @@
 # Brendwall Test API
 
-This project is a simple Django application that provides an API for managing products and a frontend interface for interacting with this API. 
+This project is a simple Django application that provides an API for managing products 
+and a frontend interface for interacting with this API. 
 
 ## Features
 
