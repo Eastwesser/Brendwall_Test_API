@@ -78,6 +78,7 @@ To start the Django development server, run:
   ```bash
   python manage.py runserver
   ```
+
 The server will be available at http://127.0.0.1:8000/.
 
 ## Using the API
