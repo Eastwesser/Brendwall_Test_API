@@ -79,6 +79,7 @@ To start the Django development server, run:
 cd brendwall_tz
 python manage.py runserver
 ```
+Keep in mind that you must be in `manage.py` folder!
 
 The server will be available at http://127.0.0.1:8000/.
 
